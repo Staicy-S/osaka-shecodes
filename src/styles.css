@@ -47,7 +47,7 @@ header a:hover {
 
 a {
   text-decoration: none;
-  color: grey;
+  color: rgb(179, 179, 179);
   transition: all 150ms ease-in-out;
 }
 
@@ -56,8 +56,47 @@ a:hover {
   transition: all 150ms ease-in-out;
 }
 
+p.introduction {
+  margin: 50px;
+}
+
+p.location {
+  display: flex;
+  align-items: center;
+}
+
+.boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 30px;
+}
+
+.embedded {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  aspect-ratio: 1 / 1;
+}
+
 footer {
   text-align: center;
+}
+
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/osaka-port.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding: 100px 0;
+}
+
+@media (max-width: 1200px) {
+  .boxes {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 800px) {
