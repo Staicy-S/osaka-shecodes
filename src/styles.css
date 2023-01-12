@@ -65,6 +65,12 @@ p.location {
   align-items: center;
 }
 
+.location-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .boxes {
   display: grid;
   grid-template-columns: 1fr 1fr;
