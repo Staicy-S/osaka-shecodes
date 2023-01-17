@@ -37,6 +37,10 @@ h4 {
   margin-bottom: 0;
 }
 
+.text-center {
+  text-align: center;
+}
+
 header a {
   line-height: 1.5;
   text-transform: uppercase;
@@ -122,10 +126,12 @@ p.location {
 
 .card-section {
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-.title {
-  padding: 0 0 0 20px;
+.section {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .cards {
@@ -133,6 +139,13 @@ p.location {
   grid-template-columns: 1fr 1fr 1fr;
   padding: 20px;
   gap: 20px;
+}
+
+.youtube-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 30px;
 }
 
 button {
