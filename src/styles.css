@@ -1,10 +1,15 @@
 body {
   font-family: "Poppins";
-  background-color: rgb(0, 0, 29);
+  background: linear-gradient(to top, #dfe9f3 0%, white 100%);
 }
 
 .dark {
-  background: black;
+  background: linear-gradient(
+    109.6deg,
+    rgba(0, 0, 0, 0.93) 11.2%,
+    rgb(63, 61, 61) 78.9%
+  );
+
   color: white;
 }
 
@@ -14,16 +19,16 @@ body {
 
 button {
   text-transform: uppercase;
-  margin: 0 auto;
+  margin: 10px auto 10px;
   border-radius: 5px;
-  border: solid rgb(255, 255, 255) 1px;
+  border: solid rgb(110, 110, 110) 1px;
 }
 
 button:hover {
   transition: all 250ms ease-in-out;
   color: rgb(0, 0, 0);
   background: rgb(255, 255, 255);
-  border: solid white 1px;
+  border: solid rgb(110, 110, 110) 1px;
 }
 
 html {
@@ -31,6 +36,7 @@ html {
 }
 
 .container {
+  border: 1px solid white;
   max-width: 1200px;
   margin: 0 auto;
   background-color: white;
