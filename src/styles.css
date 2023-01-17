@@ -3,6 +3,10 @@ body {
   background-color: rgb(0, 0, 29);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
