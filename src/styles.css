@@ -196,6 +196,9 @@ footer {
   .cards {
     grid-template-columns: 1fr;
   }
+  .zoom:hover {
+    transform: scale(1);
+  }
 }
 
 @media (max-width: 800px) {
